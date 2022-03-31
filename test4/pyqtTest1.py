@@ -1,9 +1,9 @@
 import sys
 from PyQt5.QtWidgets import QApplication,QWidget
 if __name__=='__main__':
-    #创建Qapplication类的实列
+    # 创建Qapplication类的实列
     app =QApplication(sys.argv)
-    #创建窗口
+    #创建窗
     w=QWidget()
     #设置窗口的尺寸
     w.resize(300,150)
